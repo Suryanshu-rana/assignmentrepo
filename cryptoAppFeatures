@@ -1,0 +1,16 @@
+App have 2 features selling and buying.
+Buying feature-
+if(buying == true){
+  if(user.hasAmount >= crypto.price){
+    company.crypto.quantity = company.crypto.quantity-1
+    user.crypto.quantity = user.crypto.quantity + 1
+    user.hasAmount == user.hasAmount- crypto.price
+    company.hasAmount = company.hasAmount+crypto.price
+    }
+    else{
+    print("user has not enough money")
+    }
+ }
+ else{
+ print("user don't want to buy")
+}
